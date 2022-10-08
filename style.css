@@ -170,16 +170,65 @@ body {
     color: #20aa29;
 }
 
-
-
-
-
 .card-price {
-    
     text-align: center;
     line-height: 12px;
 }
 
 .card-price button {
     margin-top: 20px;
+}
+
+.testimonial-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-heading > h1 {
+    font-size: 3rem;
+}
+
+
+.testimonial-heading > p {
+    width: 60%;
+    text-align: center;
+}
+
+.testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.testimonial-card {
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 2px;
+    padding: 1rem;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgb(201, 201, 201);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-info {
+    margin: 0;
+    padding: 0;
+    line-height: 30%;
+}
+
+.author-name {
+    font-weight: bold;
 }
