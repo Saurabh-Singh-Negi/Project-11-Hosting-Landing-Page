@@ -382,7 +382,7 @@ ul {
     color: #fff;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .list-item {
         display: none;
     }   
@@ -390,5 +390,57 @@ ul {
     .list-item-active {
         display: block;
     }
+    
+    .text-heading {
+            font-weight: 500;
+            font-size: 2rem;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image {
+        margin: 0;
+        padding: 0;
+        height: 25em;
+        width: 10em;
+        align-self: center;
+    }
+
+    .main {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .main-rev {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+/*     
+    .container-main {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    } */
+
+    .service-desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+
 
 }
